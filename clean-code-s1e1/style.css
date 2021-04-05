@@ -1,48 +1,60 @@
 /* Basic Style */
 *{
     box-sizing: border-box;
-  }
+  } 
+  
   .page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
   }
+  
   .matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
   }
+  
   .matrixImage {
     width: 100%;
   }
+  
   .matrix .more-inf {
     font-family: fantasy, cursive;
   }
   
   @media (max-width:768px) {
-    .matrix { text-align: center;
+  
+  .matrix { text-align: center;
   }
+  
   }
+  
   .tasksSection {
     display: block;
     width: 400px;
     margin: 0 auto 0;
   }
+  
   .task {
     width: 56%;
     display: inline-block;
   }
+  
   ul {
     margin:0;
     padding: 0px;
   }
+  
   li, h3 {
     list-style:none;
   }
+  
   input,button{
     outline:none;
   }
+  
   #btn {
     background: none;
     border: 0px;
@@ -52,9 +64,11 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
   }
+  
   #btn:hover {
     color: #3a3a3a;
   }
+  
   /* Heading */
   .new-task {
     color: #333;
@@ -65,6 +79,7 @@
     margin: 0;
     text-transform: uppercase;
   }
+  
   .text {
     margin: 0;
     font-size: 18px;
@@ -77,6 +92,7 @@
     font-family: Lato, sans-serif;
     color: #888;
   }
+  
   .text:focus {
     color: #333;
   }
@@ -86,9 +102,11 @@
     display: block;
     margin: 0 0 20px;
   }
+  
   #new-task {
     width: 318px;
   }
+  
   #btn:hover:last-child {
     color: #0fc57c;
   }
@@ -99,6 +117,7 @@
     padding: 20px 0;
     border-bottom: 1px solid #eee;
   }
+  
   #section > * {
     vertical-align: middle;
   }
@@ -106,6 +125,7 @@
   #checkbox { 
     margin: 0 10px;
   }
+  
   .task {
     padding-left: 10px;
     box-sizing: border-box;
@@ -116,11 +136,13 @@
   #btn.delete:hover {
     color: #cf2323;
   }
+  
   #btn.delete .image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
+  
   #btn.delete .image:hover {
     transform: rotateZ(0);
   }
