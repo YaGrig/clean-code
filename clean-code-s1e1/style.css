@@ -126,7 +126,7 @@ body {
   }
   
   /* Completed */
-  ul#completed-tasks label {
+  ul#cmpl-tasks label {
     text-decoration: line-through
     color: #888;
   }
