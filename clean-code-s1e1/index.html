@@ -7,19 +7,19 @@
   </head>
   <body>
     <header class="matrix">
-      <img class="matrixImage" src="./eisenhower-matrix.jpg" alt="Image of matrix"><a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="matrix__images" src="./eisenhower-matrix.jpg" alt="Image of matrix"><a class="matrix__inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <section class="tasksSection">
-      <p id="inputSection"><label class="new-task" for="new-task">Add Item</label><input id="new-task" class="text" type="text"><button id="btn">Add</button></p>
+      <p id="InputSection"><label class="new-task" for="new-task">Add Item</label><input id="inputSection__new-task-id" class="text" type="text"><button id="btn">Add</button></p>
       <h3 class="new-task">Todo</h3>
       <ul id="incomp-Tasks">
-        <li id="section"><input id="checkbox" type="checkbox"><label class="task">Pay Bills</label><input class="text" type="text"><button  class="edit" id="btn">Edit</button><button id="btn"  class="delete"><img class="image" src="./remove.svg" alt="Image of delete button"></button></li>
+        <li id="section"><input id="checkbox" type="checkbox"><label class="task">Pay Bills</label><input class="text" type="text"><button  class="edit" id="btn">Edit</button><button id="btn"  class="btn-delete"><img class="image" src="./remove.svg" alt="Image of delete button"></button></li>
         <li class="editMode" id="section"><input id="checkbox" type="checkbox"><label class="task">Go Shopping</label><input class="text"  type="text" value="Go Shopping" 
-            class="task"><button id="btn" class="edit">Save</button><button id="btn" class="delete"><img class="image" src="./remove.svg" alt="Image of delete button"></button></li>
+            class="task"><button id="btn" class="edit">Save</button><button id="btn" class="btn-delete"><img class="image" src="./remove.svg" alt="Image of delete button"></button></li>
       </ul>
       <h3 class="new-task">Completed</h3>
       <ul id="cmpl-tasks">
-        <li id="section"><input type="checkbox" id="checkbox" checked><label class="task">See the Doctor</label><input class="text" type="text"><button id="btn" class="edit">Edit</button><button id="btn" class="delete"><img class="image" src="./remove.svg" alt="Image of delete button"></button></li>
+        <li id="section"><input id="checkbox" type="checkbox" checked><label class="task">See the Doctor</label><input class="text" type="text"><button id="btn" class="edit">Edit</button><button id="btn" class="btn-delete"><img class="image" src="./remove.svg" alt="Image of delete button"></button></li>
       </ul>
     </section>
   <script src="app.js"></script>

@@ -16,11 +16,11 @@
   text-align: right;
 }
 
-.matrixImage {
+.matrix__image {
   width: 100%;
 }
 
-.matrix .more-inf {
+.matrix__inf {
   font-family: fantasy, cursive;
 }
 
@@ -106,7 +106,7 @@ button{
   margin: 0 0 20px;
 }
 
-#new-task {
+#inputSection__new-task-id {
   width: 318px;
 }
 
@@ -136,17 +136,17 @@ button{
   width: 226px;
 }
 
-#btn.delete:hover {
+#btn.btn-delete:hover {
   color: #cf2323;
 }
 
-#btn.delete .image {
+#btn.btn-delete .image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-#btn.delete .image:hover {
+#btn.btn-delete .image:hover {
   transform: rotateZ(0);
 }
 
