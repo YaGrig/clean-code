@@ -1,5 +1,8 @@
 /* Basic Style */
-body {
+*{
+    box-sizing: border-box;
+  }
+  body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -126,7 +129,7 @@ body {
   }
   
   /* Completed */
-  ul#cmpl-tasks label {
+  ul#completed-tasks label {
     text-decoration: line-through
     color: #888;
   }
